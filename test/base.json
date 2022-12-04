@@ -1,0 +1,920 @@
+{
+  "message": "Success",
+  "code": 200,
+  "insurance": {
+    "id": "1",
+    "verified_by": "Eager-PAID",
+    "active_coverage": true,
+    "policy_number": "YFW911A79223",
+    "group_number": null,
+    "network": "ANTHEM BLUE CROSS BLUE SHIELD - Preferred Provider Organization (PPO)",
+    "effective_date": "2014-01-01",
+    "expiry_date": "9999-12-31",
+    "calendar_or_plan_year": "Calendar Year",
+    "copay": 0,
+    "coinsurance": 0,
+    "individual_deductible_max": 250,
+    "individual_deductible_met": 0,
+    "individual_oop_max": 2500,
+    "individual_oop_met": 20,
+    "family_deductible_max": 750,
+    "family_deductible_met": 0,
+    "family_oop_max": 5000,
+    "family_oop_met": 79.93,
+    "reference_number": "8PVMPHJ4N5MR0G"
+  },
+  "eligible": {
+    "created_at": "2017-02-16T15:24:18-05:00",
+    "eligible_id": "8PVMPHJ4N5MR0G",
+    "known_issues": [],
+    "demographics": {
+      "subscriber": {
+        "last_name": "RIELL",
+        "first_name": "RUSSELL",
+        "middle_name": "L",
+        "member_id": "YFW911A79223",
+        "group_id": null,
+        "group_name": null,
+        "dob": null,
+        "gender": null,
+        "address": {
+          "street_line_1": null,
+          "street_line_2": null,
+          "city": null,
+          "state": null,
+          "zip": null
+        }
+      },
+      "dependent": {
+        "last_name": "ENGEBRETSON",
+        "first_name": "EMILY",
+        "middle_name": null,
+        "member_id": null,
+        "group_id": "195647M001",
+        "group_name": "JT3 LLC",
+        "dob": "1991-07-11",
+        "gender": "F",
+        "relationship": "Child",
+        "relationship_code": "19",
+        "address": {
+          "street_line_1": null,
+          "street_line_2": null,
+          "city": null,
+          "state": null,
+          "zip": null
+        }
+      }
+    },
+    "insurance": {
+      "name": "ANTHEM BLUE CROSS BLUE SHIELD",
+      "id": "NVBLS",
+      "payer_type": "PR",
+      "payer_type_label": "Payer",
+      "contacts": [],
+      "service_providers": {
+        "physicians": []
+      }
+    },
+    "plan": {
+      "type": "30",
+      "coverage_status": "1",
+      "coverage_status_label": "Active Coverage",
+      "coverage_basis": [],
+      "plan_number": "266",
+      "plan_name": "NEVADA BLUE SECURE PPO",
+      "plan_type": "PR",
+      "plan_type_label": "Preferred Provider Organization (PPO)",
+      "group_name": "JT3 LLC",
+      "dates": [
+        {
+          "date_type": "plan_begin",
+          "date_value": "2014-01-01",
+          "date_source": "dependent"
+        },
+        {
+          "date_type": "plan_end",
+          "date_value": "9999-12-31",
+          "date_source": "dependent"
+        }
+      ],
+      "comments": [],
+      "exclusions": {
+        "noncovered": [],
+        "pre_existing_condition": {
+          "waiting_period": []
+        }
+      },
+      "financials": {
+        "deductible": {
+          "remainings": {
+            "in_network": [
+              {
+                "amount": "750",
+                "level": "FAMILY",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "plan_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "plan_end",
+                    "date_value": "2017-12-31"
+                  }
+                ],
+                "comments": [],
+                "service_delivery": null
+              },
+              {
+                "amount": "250",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "plan_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "plan_end",
+                    "date_value": "2017-12-31"
+                  }
+                ],
+                "comments": [],
+                "service_delivery": null
+              }
+            ]
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": [
+              {
+                "amount": "750",
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "FAMILY",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "plan_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "plan_end",
+                    "date_value": "2017-12-31"
+                  }
+                ],
+                "comments": [],
+                "service_delivery": null
+              },
+              {
+                "amount": "250",
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "plan_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "plan_end",
+                    "date_value": "2017-12-31"
+                  }
+                ],
+                "comments": [],
+                "service_delivery": null
+              }
+            ]
+          }
+        },
+        "stop_loss": {
+          "remainings": {
+            "in_network": [
+              {
+                "amount": "4920.07",
+                "level": "FAMILY",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [],
+                "comments": []
+              },
+              {
+                "amount": "2480",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [],
+                "comments": []
+              }
+            ]
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": [
+              {
+                "amount": "5000",
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "FAMILY",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "benefit_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "benefit_end",
+                    "date_value": "9999-12-31"
+                  }
+                ],
+                "comments": []
+              },
+              {
+                "amount": "2500",
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": null,
+                "quantity_label": null,
+                "quantity": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "benefit_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "benefit_end",
+                    "date_value": "9999-12-31"
+                  }
+                ],
+                "comments": []
+              }
+            ]
+          }
+        },
+        "coinsurance": {
+          "percents": {
+            "in_network": []
+          }
+        },
+        "copayment": {
+          "amounts": {
+            "in_network": []
+          }
+        },
+        "cost_containment": {
+          "remainings": {
+            "in_network": []
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": []
+          }
+        },
+        "spend_down": {
+          "remainings": {
+            "in_network": []
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": []
+          }
+        },
+        "reserve": {
+          "remainings": {
+            "in_network": []
+          }
+        },
+        "limitations": {
+          "amounts": []
+        },
+        "disclaimer": [
+          "UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBERS ELIGIBILITY STATUS ON THE DATE OF SERVICE. FOR ANY QUESTIONS PLEASE CALL PHONE NUMBER ON BACK OF MEMBERS CARD."
+        ],
+        "other_sources": {
+          "amounts": []
+        }
+      },
+      "benefit_details": {
+        "benefit_description": {
+          "amounts": []
+        },
+        "managed_care": {
+          "amounts": []
+        },
+        "unlimited": {
+          "amounts": []
+        }
+      },
+      "additional_insurance_policies": []
+    },
+    "services": [
+      {
+        "type": "33",
+        "type_label": "Chiropractic",
+        "coverage_status": "1",
+        "coverage_status_label": "Active Coverage",
+        "coverage_basis": [],
+        "facility": {
+          "amounts": []
+        },
+        "noncovered": [],
+        "benefit_details": {
+          "benefit_description": {
+            "amounts": []
+          },
+          "managed_care": {
+            "amounts": []
+          },
+          "unlimited": {
+            "amounts": []
+          }
+        },
+        "financials": {
+          "deductible": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": [
+                {
+                  "amount": "0",
+                  "time_period": "23",
+                  "time_period_label": "calendar_year",
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": null,
+                  "pos_label": null,
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "2017-12-31"
+                    }
+                  ],
+                  "comments": [
+                    "SPINAL MANIPULATION"
+                  ],
+                  "service_delivery": null
+                }
+              ]
+            }
+          },
+          "stop_loss": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "coinsurance": {
+            "percents": {
+              "in_network": []
+            }
+          },
+          "copayment": {
+            "amounts": {
+              "in_network": [
+                {
+                  "amount": "20",
+                  "time_period": "27",
+                  "time_period_label": "visit",
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": null,
+                  "pos_label": null,
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "9999-12-31"
+                    }
+                  ],
+                  "comments": [
+                    "SPINAL MANIPULATION"
+                  ],
+                  "service_delivery": null
+                }
+              ]
+            }
+          },
+          "cost_containment": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "spend_down": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "reserve": {
+            "remainings": {
+              "in_network": []
+            }
+          },
+          "limitations": {
+            "amounts": [
+              {
+                "amount": null,
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "INDIVIDUAL",
+                "network": "IN",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": "VS",
+                "quantity_label": "Visits",
+                "quantity": "12",
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "benefit_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "benefit_end",
+                    "date_value": "9999-12-31"
+                  }
+                ],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              },
+              {
+                "amount": null,
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "INDIVIDUAL",
+                "network": "OUT",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": "VS",
+                "quantity_label": "Visits",
+                "quantity": "12",
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "benefit_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "benefit_end",
+                    "date_value": "9999-12-31"
+                  }
+                ],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              },
+              {
+                "amount": null,
+                "time_period": "29",
+                "time_period_label": "remaining",
+                "level": "INDIVIDUAL",
+                "network": "IN",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": "VS",
+                "quantity_label": "Visits",
+                "quantity": "12",
+                "contact_details": [],
+                "dates": [],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              },
+              {
+                "amount": null,
+                "time_period": "29",
+                "time_period_label": "remaining",
+                "level": "INDIVIDUAL",
+                "network": "OUT",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "description": null,
+                "quantity_code": "VS",
+                "quantity_label": "Visits",
+                "quantity": "12",
+                "contact_details": [],
+                "dates": [],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              }
+            ]
+          },
+          "disclaimer": [],
+          "other_sources": {
+            "amounts": []
+          }
+        },
+        "visits": {
+          "remainings": {
+            "in_network": [
+              {
+                "quantity": "12",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "quantity_type": "VS",
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "contact_details": [],
+                "dates": [],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              }
+            ]
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": [
+              {
+                "quantity": "12",
+                "time_period": "23",
+                "time_period_label": "calendar_year",
+                "level": "INDIVIDUAL",
+                "insurance_type": null,
+                "insurance_type_label": null,
+                "quantity_type": "VS",
+                "pos": null,
+                "pos_label": null,
+                "authorization_required": null,
+                "contact_details": [],
+                "dates": [
+                  {
+                    "date_type": "benefit_begin",
+                    "date_value": "2017-01-01"
+                  },
+                  {
+                    "date_type": "benefit_end",
+                    "date_value": "9999-12-31"
+                  }
+                ],
+                "comments": [
+                  "SPINAL MANIPULATION"
+                ]
+              }
+            ]
+          }
+        },
+        "additional_insurance_policies": []
+      },
+      {
+        "type": "4",
+        "type_label": "Diagnostic X-Ray",
+        "coverage_status": "1",
+        "coverage_status_label": "Active Coverage",
+        "coverage_basis": [],
+        "facility": {
+          "amounts": []
+        },
+        "noncovered": [],
+        "benefit_details": {
+          "benefit_description": {
+            "amounts": []
+          },
+          "managed_care": {
+            "amounts": []
+          },
+          "unlimited": {
+            "amounts": []
+          }
+        },
+        "financials": {
+          "deductible": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": [
+                {
+                  "amount": "0",
+                  "time_period": "23",
+                  "time_period_label": "calendar_year",
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": null,
+                  "pos_label": null,
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "2017-12-31"
+                    }
+                  ],
+                  "comments": [],
+                  "service_delivery": null
+                }
+              ]
+            }
+          },
+          "stop_loss": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "coinsurance": {
+            "percents": {
+              "in_network": [
+                {
+                  "percent": "0",
+                  "time_period": null,
+                  "time_period_label": null,
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": null,
+                  "pos_label": null,
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "9999-12-31"
+                    }
+                  ],
+                  "comments": [
+                    "COLORECTAL CANCER SCREENING",
+                    "NON OUTPATIENT HOSPITAL"
+                  ],
+                  "service_delivery": null
+                },
+                {
+                  "percent": "10",
+                  "time_period": null,
+                  "time_period_label": null,
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": "19",
+                  "pos_label": null,
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "9999-12-31"
+                    }
+                  ],
+                  "comments": [],
+                  "service_delivery": null
+                },
+                {
+                  "percent": "10",
+                  "time_period": null,
+                  "time_period_label": null,
+                  "level": "INDIVIDUAL",
+                  "insurance_type": null,
+                  "insurance_type_label": null,
+                  "pos": "22",
+                  "pos_label": "Outpatient",
+                  "authorization_required": null,
+                  "description": null,
+                  "quantity_code": null,
+                  "quantity_label": null,
+                  "quantity": null,
+                  "contact_details": [],
+                  "dates": [
+                    {
+                      "date_type": "benefit_begin",
+                      "date_value": "2017-01-01"
+                    },
+                    {
+                      "date_type": "benefit_end",
+                      "date_value": "9999-12-31"
+                    }
+                  ],
+                  "comments": [],
+                  "service_delivery": null
+                }
+              ]
+            }
+          },
+          "copayment": {
+            "amounts": {
+              "in_network": []
+            }
+          },
+          "cost_containment": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "spend_down": {
+            "remainings": {
+              "in_network": []
+            },
+            "spent": {
+              "in_network": []
+            },
+            "totals": {
+              "in_network": []
+            }
+          },
+          "reserve": {
+            "remainings": {
+              "in_network": []
+            }
+          },
+          "limitations": {
+            "amounts": []
+          },
+          "disclaimer": [],
+          "other_sources": {
+            "amounts": []
+          }
+        },
+        "visits": {
+          "remainings": {
+            "in_network": []
+          },
+          "spent": {
+            "in_network": []
+          },
+          "totals": {
+            "in_network": []
+          }
+        },
+        "additional_insurance_policies": []
+      }
+    ]
+  }
+}

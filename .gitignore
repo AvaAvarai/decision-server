@@ -1,0 +1,12 @@
+# Node & npm
+npm-debug.log
+node_modules/
+
+# VS Code
+.vscode
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
